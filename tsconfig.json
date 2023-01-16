@@ -1,0 +1,28 @@
+{
+    "extends": "@vue/tsconfig/tsconfig.web.json",
+    "include": [
+        "env.d.ts",
+        "src/**/*",
+        "src/**/*.vue",
+        "auto-imports.d.ts"
+    ],
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ]
+        },
+        "lib": [
+            "ES2021",
+            "dom"
+        ],
+        "importsNotUsedAsValues": "remove",
+        "isolatedModules": false
+    },
+    "references": [
+        {
+            "path": "./tsconfig.config.json"
+        }
+    ]
+}
