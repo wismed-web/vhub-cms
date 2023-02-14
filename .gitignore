@@ -132,3 +132,5 @@ coverage
 *.sln
 *.sw?
 
+nohup.out
+src/share/original
