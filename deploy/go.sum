@@ -1,8 +1,0 @@
-github.com/digisan/deploy-util v0.1.2 h1:TSOz9382J9oc+VqEYRVaXRnudl1oDvbc/BB6/bjyeZc=
-github.com/digisan/deploy-util v0.1.2/go.mod h1:Ybu+USZypHvAsrRjj7gleNjGpfZHc7HXOjUgB3sS/QA=
-github.com/digisan/go-generics v0.3.2 h1:gu03iuUGAf3o0Lkcd/yopCZIgtnMojmFJazw7Jxe3hU=
-github.com/digisan/go-generics v0.3.2/go.mod h1:VL55aCSjSaDHPbLtQyGg5fFFwG9SSHiAO/Zke/Tkhcg=
-github.com/digisan/gotk v0.3.2 h1:hJlMnvQqqOtw2O34Y6NL5jIABneRTOBuLbdrStellEg=
-github.com/digisan/gotk v0.3.2/go.mod h1:NOnw84R3KNr+ov4qz5UfcABAgsWTQbqJdYAb2yd3x8A=
-golang.org/x/net v0.6.0 h1:L4ZwwTvKW9gr0ZMS1yrHD9GZhIuVjOBBnaKH+SPQK0Q=
-golang.org/x/net v0.6.0/go.mod h1:2Tu9+aMcznHK/AK1HMvgo6xiTLG5rD5rZLDS+rp2Bjs=

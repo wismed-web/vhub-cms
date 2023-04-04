@@ -1,6 +1,6 @@
-import { IP_API } from "@/share/ip";
+import { URL_API } from "@/share/ip";
 
-const ip = IP_API;
+const ip = URL_API;
 
 export const mEmpty = new Map<string, any>();
 
@@ -32,8 +32,8 @@ export const fetchBodyForm = async (
 
     try {
         const headers = {
-            Accept: "application/json",
-            Authorization: auth,
+            'Accept': "application/json",
+            'Authorization': auth,
         };
 
         const resp = await fetch(url, {
@@ -86,8 +86,9 @@ export const fetchBodyJsonStr = async (
 
     try {
         const headers = {
-            Accept: "application/json",
-            Authorization: auth,
+            'Accept': "application/json",
+            'Authorization': auth,
+            'Content-Type': "application/json",
         };
 
         const resp = await fetch(url, {
@@ -142,8 +143,9 @@ export const fetchBodyObject = async (
 
     try {
         const headers = {
-            Accept: "application/json",
-            Authorization: auth,
+            'Accept': "application/json",
+            'Authorization': auth,
+            'Content-Type': "application/json",
         };
 
         const resp = await fetch(url, {
@@ -189,8 +191,8 @@ export const fetchNoBody = async (
 
     try {
         const headers = {
-            Accept: "application/json",
-            Authorization: auth,
+            'Accept': "application/json",
+            'Authorization': auth,
         };
 
         const resp = await fetch(url, {
